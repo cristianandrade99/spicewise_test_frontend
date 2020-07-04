@@ -1,0 +1,105 @@
+body {
+  background-color: #313a3d
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.whiteText {
+  color: white;
+}
+
+.taskListPanel {
+  margin-right: 50px;
+}
+
+.addTaskPanel {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputDescription {
+  margin-top: 5px;
+  width: 230px;
+}
+
+.agregarButton {
+  margin-top: 5px;
+  width: 100px;
+}
+
+.primary {
+  background-color: rgb(0,122,254);
+}
+.secondary {
+  background-color: rgb(109,115,121);
+}
+.success {
+  background-color: rgb(31,167,67);
+}
+.danger {
+  background-color: rgb(217,49,70);
+}
+.warning {
+  background-color: rgb(255,194,7);
+}
+.info {
+  background-color: rgb(29,157,183);
+}
+.light {
+  background-color: rgb(245,245,250);
+}
+.dark {
+  background-color: rgb(49,55,61);
+}
+
+.taskComponent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.taskText {
+  height: 40px;
+  width: 300px;
+  padding-left: 10px;
+}
+
+.deleteButton {
+  color: red;
+  background-color: transparent;
+  height: 40px;
+}
+
+.updateButton {
+  color: black;
+  background-color: transparent;
+  height: 40px;
+}
+
+.updatePanel {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  background-color: #3f3f3f;
+}
+
+.updateTitles {
+  height: 10px;
+  text-align: center;
+}
+
+.inputUpdateItem {
+
+}
+
+.inputUpdateDescription {
+
+}
+
+.ModificarButton {
+  margin-top: 10px;
+}
